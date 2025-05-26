@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+a
+{
+    text-decoration: none;
+}
+:root
+{
+    --primary-font: 'Poppins', sans-serif;
+    --secondary-font: 'Lora', serif;
+    --primary-color: #004C3F;
+    --secondary-color: #008060;
+    --text-color: #000;
+
+}
+::after, ::before {
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: #004C3F;
+}
+
+ul
+{
+    list-style: none;
+}
+
+
+.top ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: var(--primary-font);
+    font-size: 18px;
+    color: #fff;
+}
+.top
+{
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 20px;
+    font-family: var(--secondary-font);
+}
+.logo
+{
+    width: 164px;
+    margin: 0;
+    padding: 0;
+}
+nav ul
+{
+    color: #162542;
+    font-family: var(--secondary-font);
+    font-size: 16px;
+}
+.menubar
+{
+    right: 0;
+    top: 0;
+    padding: 10px;
+}
+.btn
+{
+    background:var(--secondary-color);
+    color: #fff;
+}
+.bg-img
+{
+    background-image:url('https://htmldemo.zcubethemes.com/scholary/img/slider/slider_bg.png') ;
+    background-size: cover;
+    background-position: center bottom;
+}
+.banner h2
+{
+    font-size: 70px;
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    padding-top: 80px;
+    line-height: 1.2;
+    letter-spacing: 1.0px;
+    animation-delay: 0.4s;
+}
+.banner p 
+{
+    animation-delay: 0.6s;
+}
+
+.shape
+{
+    width: 50px;
+}
+.banner-content
+{
+    padding-bottom: 350px;
+}
+.services
+{
+    color: #004C3F;
+    .icon
+    {
+        width: 65px;
+    }
+    h5
+    {
+        font-family: var(--secondary-font);
+        font-size: 25px;
+        font-weight: bold;
+
+    }   
+    .services-box
+    {
+        background-color: #fff;
+        position: relative;
+        left: 0%;
+        bottom: 120px;
+        border-radius: 5px;
+        padding: 35px;
+        transition: all 0.3s ease 0s;
+        box-shadow: 0px 4.4px 20px -1px rgba(19, 16, 34, 0.05);
+    }
+    a
+    {
+        color: #004C3F;
+        font-family: var(--secondary-font);
+        font-weight: bold;
+    }
+
+}
+.about
+{
+    .about-title
+    {
+        h5, h2
+        {
+            font-family: var(--secondary-font);
+            font-weight: bold;
+        }
+        h2 
+        {
+            font-size: 50px;
+            
+        }
+        @media(min-width: 480px) and (max-width: 767px)
+        {
+            h2 
+            {
+                font-size: 32px;
+            }
+        }
+    }
+    .award-button
+    {
+        border: 1px solid #E3E3E3;
+        border-radius: 5px;
+        background: #FBF7ED;
+        padding: 20px;
+        margin-left: 35px;
+        position: relative;
+        font-family: var(--secondary-font);
+        font-size: 18px;
+        font-weight: bold;
+        display: inherit;
+        
+    }
+    .img 
+    {
+        position: absolute;
+        left: -35px;
+        top: 10px;
+
+    }
+    .about-text
+    {
+        background: var(--secondary-color);
+        color: #fff;
+        border: 1px solid;
+        border-radius: 10px;
+        position: relative;
+        right: 0;
+        bottom: 198px;
+        .icon
+        {
+            padding-left: 25px;
+        }
+    }
+    
+    span {
+        font-size: 50px;
+        color: #fff;
+        position: relative;
+        display: inline-block;
+        font-weight: 600;
+        font-family: var(--secondary-font);
+        display: block;
+        padding: 0;
+        line-height: 1;
+    }
+}
+
+.latest-service
+{
+    background: url('https://htmldemo.zcubethemes.com/scholary/img/bg/services-bg.png');
+    color: #fff;
+    h5
+    {
+        font-family: var(--secondary-font);
+        font-size: 20px;
+        font-weight: bold ;
+    }
+    h2
+    {
+        font-family: var(--secondary-font);
+        font-size: 50px;
+        font-weight: bold ;
+    }
+    .services-box
+    {
+        border: 1px solid #008060;
+        border-radius: 10px;
+        .img
+        {
+            position:relative;
+            left:0;
+            top:-60px;
+        }
+        h4
+        {
+            font-family: var(--secondary-font);
+
+        }
+        p 
+        {
+            color: #B6CBC9;
+        }
+        a 
+        {
+            color: #fff;
+            font-family: var(--secondary-font);
+        }
+    }
+
+}
+.Links
+{
+    padding-top: 150px;
+    .link-left
+    {
+        background: #FBF7ED;
+        border: 1px solid #FBF7ED;
+        border-radius: 10px;
+        position: relative;
+        margin-right: auto -150px;
+        top:50px;
+        padding: 60px;
+        
+        
+    }
+    
+    h2 
+    {
+        font-family: var(--secondary-font);
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .list-group-item
+    {
+        background-color: #FBF7ED;
+        color: #004C3F;
+        font-weight: 600;
+        font-size: 16px;
+        padding: 15px 10px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        &:hover
+        {
+            border:2px solid #000;
+        }
+        i 
+        {
+            float: right;
+            font-size: 25px;
+        }
+    }
+}
+
+.video-img
+{
+    background-image: url('	https://htmldemo.zcubethemes.com/scholary/img/bg/cta_bg.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    position: relative;
+    padding: 320px 0;
+    .play-btn
+    {
+        ::after, ::before
+        {
+            content:'';
+            position: absolute;
+            background: red; 
+            border-radius: 50%;
+            width: 100%;
+            height: 100%;
+
+        }
+        ::before
+        {
+            animation: ripple 1.4s linear infinite;
+        }
+        ::after
+        {
+            animation: ripple 1.4s linear 2s infinite;
+        }
+        @keyframes ripple
+        {
+            0%{ transform: scale(1); opacity: 0;}  100%{ transform: scale(1.2); opacity: 1;}
+        }
+    }
+}
+
+.block1
+{
+    color: #fff;
+    .newsletter
+    {
+    border: 1px solid #004C3F;
+    background: #004C3F;
+    }
+    h2 
+    {
+        font-family: var(--secondary-font);
+        font-size: 25px; 
+        font-weight: bold;
+    }
+    .form
+    {
+        padding: 20px;
+        color: #fff;
+        .form-control
+        {
+            background: #337065;
+            color: #fff;
+            font-size: 14px;
+            padding: 20px 15px;
+        }
+        .btn
+        {
+            margin: 4px;
+            padding: 0px 130px;
+        }
+    }
+}
+.Gallery
+{
+    h5
+    {
+        font-family: var(--secondary-font);
+        font-size: 16px;
+        font-weight: bold;
+    }
+    h2
+    {
+        font-family: var(--secondary-font);
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    
+}
+
+.block2
+{
+    h2 
+    {
+        font-family: var(--secondary-font);
+        font-size: 50px;
+        font-weight: bold;
+        padding-bottom: 50px;
+
+    }
+    .bg2
+    {
+        position: relative;
+    }
+    .form 
+    {
+        background: #004C3F;
+        color: #fff;
+        border: 1px solid #004C3F;
+        border-radius: 10px;
+        padding: 20px 20px;
+        position: absolute;
+        right: 320px;
+        top: -250px;
+        margin: 320px;
+
+        .contact-field input
+        {
+            background: none;
+            border: 1px solid #008060;
+            border-radius: 10px;
+            padding: 20px;
+            
+        }
+        .contact-field select 
+        {
+            background: none;
+            border: 1px solid #008060;
+            border-radius: 10px;
+            padding: 20px 34px;
+            color: #fff;
+        }
+        .slider-btn
+        {
+            .btn 
+            {
+                padding: 20px 230px;
+                &:hover
+                {
+                    background-color: #000;
+                }
+            }
+        }
+        
+        
+    }
+    
+}
+
+.Blog
+{
+    
+    h4
+    {
+        font-family: var(--secondary-font);
+        font-weight: bold;
+        font-size: 18px;
+        color: #008060;
+    }
+    h2 
+    {
+        font-family: var(--secondary-font);
+        font-weight: bold;
+        font-size: 50px;
+
+    }
+    .boxes
+    {   
+        
+        .article
+        {
+            position: relative;
+            overflow: hidden;
+        }
+        img 
+        {
+            width: 100%;
+            height: 100%;
+            transition: 0.9s;
+            
+            
+        }
+        &:hover img 
+        {
+            transform: scale(1.2);
+        }
+        
+    }
+    .calender
+    {   
+        background: #008060;
+        color: #fff;
+        font-size: 14px;
+        padding: 10px;
+        border-bottom-right-radius: 10px;
+        position: absolute;
+        left: 0px;
+        top: 0;
+    }
+    .comment-box
+    {
+        border: 1px solid #FBF7ED;
+        border-radius:0 10px 10px 0;
+        background:#FBF7ED ;
+        position: absolute;
+        left: 0;
+        top: 250px;
+        margin:0 25px 0 0;
+
+        h3 
+        {
+            font-family: var(--secondary-font);
+            font-size: 25px;
+            font-weight: 600;
+        }
+        a 
+        {
+            color: #008060;
+        }
+    }
+}
+
+footer
+{
+    background: #004C3F;
+    padding-top:100px;
+    color: #C9D9D6;
+    margin: 200px 0 0 0 ;
+
+    a 
+    {
+        color: #C9D9D6;
+    }
+    i 
+    {
+        color:#008060;
+    }
+    .logoimg
+    {
+        width: 180px;
+    }
+    h2 
+    {
+        font-family: var(--secondary-font);
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .recent-blog-footer span 
+    {
+        color:#008060 ;
+    }
+    .copyright 
+    {
+        color: #fff;
+        a
+        {
+            color: #fff;
+        }
+    }
+
+}
+
+@media(min-width: 480px) and (max-width: 767px)
+{
+    .banner h2 
+    {
+        font-size: 32px;
+    }
+    .latest-service h2 
+    {
+        font-size: 32px;
+    }
+    .Gallery h2 
+    {
+        font-size: 32px;
+    }
+
+}
+
+
+
+
